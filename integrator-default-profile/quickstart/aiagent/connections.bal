@@ -1,3 +1,3 @@
-import ballerina/ai;
+import ballerinax/ai.openai;
 
-final ai:Wso2ModelProvider wso2ModelProvider = check ai:getDefaultModelProvider();
+final openai:ModelProvider openaiModelprovider = check new (string `${OPENAI_API_KEY}`, "gpt-4.1-nano");
