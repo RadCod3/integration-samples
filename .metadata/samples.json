@@ -180,9 +180,10 @@
       "description": "A multi-agent travel desk for business trip approvals. A planner agent works with destination, travel advice and policy agents to check the weather, public holidays, UK FCDO travel advice and the company travel policy. Each trip goes to the traveler's manager, and to the manager's manager when the policy asks for it. When all approve, it issues a travel authorization.",
       "componentType": "ai-agent",
       "buildPack": "ballerina",
-      "repositoryUrl": "https://github.com/wso2/integration-samples/",
+      "repositoryUrl": "https://github.com/RadCod3/integration-samples/",
+      "branch": "add-corporate-travel-planner",
       "componentPath": "/integrator-default-profile/samples/business-trip-approval",
-      "thumbnailPath": "https://raw.githubusercontent.com/wso2/integration-samples/main/integrator-default-profile/samples/business-trip-approval/icon.svg",
+      "thumbnailPath": "https://raw.githubusercontent.com/RadCod3/integration-samples/add-corporate-travel-planner/integrator-default-profile/samples/business-trip-approval/icon.svg?v=bta1",
       "tags": ["OpenAI", "AI", "Agent"],
       "imageUrl": "wso2integrations.azurecr.io/trip_approval:0.1.0"
     },
